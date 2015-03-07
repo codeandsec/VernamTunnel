@@ -1,0 +1,14 @@
+FLAGS=CC=i586-mingw32msvc-g++ LD=i586-mingw32msvc-g++ LDFLAGS=-lws2_32 NAME=vernamtunnel.exe
+
+all:
+	$(MAKE) -C vernam $(FLAGS)
+
+install:
+	$(MAKE) -C vernam $(FLAGS) install
+
+uninstall:
+	$(MAKE) -C vernam $(FLAGS) uninstall
+
+clean:
+	$(MAKE) -C vernam $(FLAGS) clean
+
