@@ -35,15 +35,15 @@ Having paranoia free private encrypted access to my NAS.
 
 Listen on local port 443 and forward to NASServer:443, starting position of one time pad file: 6482691749
 
-$ vernamtunnel --local-port=443 --remote-host=NASServer --remote-port=443 --key-file=/media/Encrypted --start-pos=6482691749
+**$ vernamtunnel --local-port=443 --remote-host=NASServer --remote-port=443 --key-file=/media/Encrypted --start-pos=6482691749**
 
 Listen on local host port 443, forward to MYINTERNETIP:18734, same starting position of one time pad file:
 
-$ vernamtunnel.exe --local-port=443 --remote-host=MYINTERNETIP --remote-port=18734 --key-file=F:\Encrypted --start-pos=6482691749
+**$ vernamtunnel.exe --local-port=443 --remote-host=MYINTERNETIP --remote-port=18734 --key-file=F:\Encrypted --start-pos=6482691749**
 
 Run without starting position parameter to start from beginning of file:
 
-$ vernamtunnel.exe --local-port=443 --remote-host=MYINTERNETIP --remote-port=18734 --key-file=F:\Encrypted
+**$ vernamtunnel.exe --local-port=443 --remote-host=MYINTERNETIP --remote-port=18734 --key-file=F:\Encrypted**
 
 ## Read More
 
